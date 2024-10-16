@@ -1,6 +1,6 @@
 const path = require("path");
 module.exports = {
-  title: 'electron学习笔记',
+  title: 'postgresql学习笔记',
   description: 'postgresql相关知识点',
   base: '/web-postgresql/', // 部署站点的基础路径
   port: 3010,
@@ -31,7 +31,7 @@ module.exports = {
       locale: 'zh', //语言
       // 其他的 Vssue 配置
       owner: 'zhoubichuan', //github账户名
-      repo: 'web-electron', //github一个项目的名称
+      repo: 'web-postgresql', //github一个项目的名称
       clientId: 'Iv1.2923ba5d4de48a3c', //注册的Client ID
       clientSecret: '110210', //注册的Client Secret
       autoCreateIssue: true // 自动创建评论，默认是false，最好开启，这样首次进入页面的时候就不用去点击创建评论的按钮了。
@@ -54,11 +54,11 @@ module.exports = {
         items: [
           {
             text: '1.基础知识',
-            link: '/base/build/1.config'
+            link: '/base/build/1.index'
           },
           {
             text: '2.简单案例',
-            link: '/base/practice/1.electron',
+            link: '/base/practice/1.index',
           }
         ]
       },
@@ -66,7 +66,7 @@ module.exports = {
         text: '项目实战',
         items: [{
           text: '1.初级项目',
-          link: '/senior/use/1.recursionAndDynamics'
+          link: '/senior/use/1.index'
         },
         {
           text: '2.高级项目',
@@ -77,7 +77,7 @@ module.exports = {
     ],
     sidebar: {
       '/base/build/': [
-        '1.config',
+        '1.index',
         '2.webpack',
         '3.file',
         '4.single',
@@ -93,7 +93,7 @@ module.exports = {
         // '15.api'
       ],
       '/base/practice/': [
-        '1.electron',
+        '1.index',
         '2.Jenkins',
         '3.gitlab',
         'vscode',
@@ -102,7 +102,7 @@ module.exports = {
         'i18n'
       ],
       '/senior/use/': [
-        '1.recursionAndDynamics',
+        '1.index',
         '2.extend',
         '3.componentCommunication',
         '4.render',
